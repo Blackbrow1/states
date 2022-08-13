@@ -1,9 +1,10 @@
 import './App.css';
-import ToolbarList from './ToolbarList';
+import Toolbar from './Toolbar/Toolbar';
 
 function App() {
+
   return (
-    <ToolbarList
+    <Toolbar
       filters={["All", "Websites", "Flayers", "Business Cards"]}
       selected="All"
       onSelectFilter={(filter) => {console.log(filter);}}/>

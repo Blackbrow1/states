@@ -1,0 +1,11 @@
+.toolbar-list {
+  list-style: none;
+  display: flex;
+  column-gap: 4px;
+}
+
+.toolbar-button {
+  background-color: inherit;
+  padding: 3px;
+  border: 1px solid #000000;
+}
